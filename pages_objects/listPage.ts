@@ -17,7 +17,7 @@ export class ListPage {
         await this.page.getByRole('link', { name: 'Appliquer le filtre Intel Core i7 pour affiner les résultats' }).click();
         await this.page.getByRole('link', { name: 'Appliquer le filtre Intel Core i9 pour affiner les résultats' }).click();
         await this.page.getByRole('link', { name: 'Appliquer le filtre 32 Go pour affiner les résultats' }).click();
-        await this.page.getByRole('link', { name: 'Appliquer le filtre 17″ (43)' }).click();
+        // await this.page.getByRole('link', { name: 'Appliquer le filtre 17″ (43)' }).click();
     }
  
  

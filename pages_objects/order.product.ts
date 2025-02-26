@@ -9,7 +9,7 @@ export class OrderProduct {
 
     async orderProduct() {
     
-    await this.page.getByRole('button', { name: 'Passer la commande (1 article' }).click();
-        
+    await this.page.getByRole('button', { name: 'Passer la commande (1 article' }).click();
+  
     }
 }
