@@ -1,5 +1,5 @@
 import type { Page } from 'playwright';
-
+import { test, expect } from '@playwright/test';
  
 export class SearchProduct {
     readonly page: Page;
