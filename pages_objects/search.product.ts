@@ -8,10 +8,10 @@ export class SearchProduct {
     }
  
  
-    // async navigate() {
-    //     await this.page.goto('https://www.amazon.fr/');
-    //     await expect(this.page).toHaveTitle(/Amazon/);
-    // }
+    async navigate() {
+        await this.page.goto('https://www.amazon.fr/');
+        await expect(this.page).toHaveTitle(/Amazon/);
+    }
  
     async openSearchAndClick() {
         
